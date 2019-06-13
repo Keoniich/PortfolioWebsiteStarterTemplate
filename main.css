@@ -1,6 +1,6 @@
 
 * {
-    border: 1px solid red !important;
+    border: 1px solid white !important;
 }
 
 * {
@@ -9,7 +9,8 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+.hr{color: black; 
+}
 .grid {
     margin: 0 auto;
     max-width: 1200px;
@@ -28,4 +29,12 @@
 
 .col-2 {
     width: 50%;
+}
+
+
+/* create new class for column 3 that is divided into 3 equal sections*/
+
+
+.col-3{
+    width:33.3333%
 }
